@@ -35,7 +35,7 @@ export default function Approuter(){
 		<BrowserRouter>
 		<Routes>
 		  <Route path="/" element={auth?<Main />:<Navigate to="login" />} >
-		  <Route path="/" element={<Navigate to="Dashboard" />} />
+		  <Route path="/" element={<Navigate to="dashboard" />} />
 		  <Route path="dashboard" element={<Dashboard />} />
 		   <Route path="addnew/clothes" element={<AddnewClothes />} />
 		   <Route path="addnew/watches" element={<AddnewWatches />} />

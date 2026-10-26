@@ -1,14 +1,13 @@
-import {useContext,createContext} from 'react'
-export const Context=createContext();
-export const ContextProvider=({children})=>{
-	const url='http://api.zinnyi.site';
-	return (
-     <Context.Provider value={{url}}>
-	{children}
-	</Context.Provider>
-	)
+import { useContext, createContext } from "react";
+import type { ReactNode } from "react";
+export const Context = createContext({ url: "http://api.zinnyi.site" });
+export function ContextProvider({ children }: { children: ReactNode }) {
+  return (
+    <Context.Provider value={{ url: "http://api.zinnyi.site" }}>
+      {children}
+    </Context.Provider>
+  );
 }
-export const usingContext=()=>{
-	const context=useContext(Context);
-	return context;
+export function usingContext() {
+  return useContext(Context);
 }
