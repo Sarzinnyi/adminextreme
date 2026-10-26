@@ -1,0 +1,14 @@
+.boxregister{
+	text-align:center;
+}
+.boxregister>input{
+	width:20vw;
+	height:4vh;
+	margin-top:1vh;
+	text-align:center;
+	border-radius:1vw;
+}
+.tologin{
+	text-align:center;
+	margin-top:5vh;
+}

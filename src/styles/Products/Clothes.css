@@ -1,0 +1,63 @@
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+tbody{
+	font-size:0.8rem;
+}
+thead th{
+	border:1px solid grey;
+}
+tbody>tr:hover{
+	background:#c7c7c7;
+}
+.watchesinstock tbody img,.watchesoutstock tbody img,.clothesinstock tbody img,.clothesoutstock tbody img,.orders tbody img{
+	width:50px;
+	height:40px;
+	object-fit:cover;
+}
+.stock tbody img{
+	width:50px;
+	height:40px;
+	object-fit:cover;
+}
+button>span{
+	display:block;
+}
+button:hover span{
+	display:block;
+}
+@media (max-width: 786px){
+	.datatable{
+		overflow-y:auto;
+	}
+	tbody tr{
+		height:70px;
+	}
+.stock,.orders{
+	font-size:0.5rem;	
+	}
+.watchesinstock,.watchesoutstock,.clothesinstock,.clothesoutstock{
+		font-size:0.5rem;
+	}
+ .stock tbody,.watchesinstock tbody,.watchesoutstock tbody,.clothesinstock tbody,.clothesoutstock tbody,.orders tbody{
+	font-size:0.5rem;
+} 
+.stock button,.watchesinstock button,.watchesoutstock button,.clothesinstock button,.clothesoutstock button{
+	font-size:0.5rem;
+}
+.stock select,.watchesinstock select,.watchesoutstock select,.clothesinstock select,.clothesoutstock select{
+	font-size:0.5rem;
+}
+.stock  tbody img,.watchesinstock  tbody img,.watchesoutstock  tbody img,.clothesinstock  tbody img,.clothesoutstock  tbody img,.orders tbody img{
+	width:20px;
+	height:20px;
+	object-fit:cover;
+}
+button>span{
+	display:block;
+}
+button:hover span{
+	display:inline;
+}	
+}

@@ -1,0 +1,18 @@
+.shopname{
+	font-size:2rem;
+	font-weight:bold;
+}
+.boxlogin{
+	text-align:center;
+}
+.toregister{
+	margin-top:3vh;
+	text-align:center;
+}
+.boxlogin>input{
+	width:20vw;
+	height:5vh;
+	margin-top:1vh;
+	border-radius:1vw;
+	text-align:center;
+}

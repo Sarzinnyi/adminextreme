@@ -1,0 +1,42 @@
+.contentbox{
+	display:flex;
+	font-weight:bold;
+}
+.generalimgbox{
+	padding-top:0.5vw;
+	padding-left:1vw;
+	padding-right:1vw;
+	margin-top:2vw;
+	width:110px;
+	height:150px;
+	text-align:center;
+	background:#d5dce3;
+	border-radius:1vw;
+}
+.cbleft{
+	width:200px;
+	
+}
+.gscontent{
+	background:#d5dce3;
+	border-radius:1vw;
+	padding-left:1vw;
+}
+.generalimgbox>p{
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #ff6b6b);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s linear infinite;
+}
+
+@keyframes gradientMove {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 300%;
+  }
+}

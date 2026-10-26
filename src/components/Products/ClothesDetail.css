@@ -1,0 +1,84 @@
+.textbox{
+	display:flex;
+}
+.detailtextinput,.detailtext{
+	display:flex;
+	flex-direction:column;
+	background:#b4c1c0;
+	width:30vw;
+	height:40vh;
+	gap:0.2vw;
+}
+.leftside{
+	width:100px;
+	height:30px;
+	background:#b4c1c0;
+	gap:0.2vw;
+}
+.detailwrap{
+	display:flex;
+	gap:1vw;
+}
+.detailimg{
+	position:relative;
+	
+}
+.imgdelete{
+	position:absolute;
+	top:0;
+	right:0;
+	display:none;
+}
+.detailimg:hover .imgdelete{
+	display:block;
+}
+.clothesdetail{
+	position:relative;
+	z-index:1;
+}
+.deletecheckbox{
+	position:absolute;
+	background:white;
+	width:25vw;
+	z-index:3;
+	text-align:center;
+	left:30%;
+	top:50%;
+}
+.blackbox{
+	position:absolute;
+	width:100vw;
+	height:100vw;
+    background:black;
+	opacity:0.6;
+	z-index:2;
+}
+.sclothesdetailwrap{
+	display:flex;
+	gap:1vw;
+	
+}
+.skeletonclothesdetailimg{
+	
+	width:30vw;
+	height:40vh;
+	background:#949494;
+}
+.skeletonclothesdetailtextbox{
+display:flex;
+	flex-direction:column;
+	background:#b4c1c0;
+	width:30vw;
+	height:40vh;
+	gap:0.2vw;
+}
+.stextbox{
+	display:flex;
+	gap:1vw;
+	
+}
+.sleftside,.srightside{
+	width:100px;
+	height:30px;
+	background:#abb8b7;
+}

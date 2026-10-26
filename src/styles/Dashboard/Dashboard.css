@@ -1,0 +1,55 @@
+.dashboardmain{
+	display:flex;
+	flex-direction:column;
+	gap:1vw;
+	overflow-y:auto;
+	padding:1vw;
+	background:#f7f7f7;
+}
+.wrapone{
+	display:flex;
+	gap:1vw;
+	min-height:50vh;
+	flex-wrap:wrap;
+}
+.oneone,.onetwo{
+	background:#ddd;
+	width:49%;
+}
+
+.onethree{
+	width:100vw;
+	display:flex;
+	gap:1vw;
+}
+.onethreeone{
+	background:#ddd;
+	flex:1;
+	padding:1vw;
+}
+.onethreeone>p{
+	font-weight:bold;
+	font-size:1.6rem;
+	color:#ff0000;
+	text-shadow:5px 6px 6px white;
+}
+.wraptwo{
+	display:flex;
+	gap:1vw;
+	min-height:50vh;
+	flex-wrap:wrap;
+}
+.twoone,.twotwo{
+	background:#ddd;
+	width:100vw;
+}
+@media (max-width: 768px){
+	.oneone{
+		width:100vw;
+		flex:none;
+	}
+.twoone,.twotwo{
+	width:100vw;
+	flex:none;
+}
+}

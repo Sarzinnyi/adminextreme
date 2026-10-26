@@ -1,0 +1,22 @@
+.settingnav{
+	text-decoration:none;
+	color:white;
+    font-weight:bold;
+	width:200px;
+	border-radius:1vw;
+	padding-left:1vw;
+}
+.settingwrap{
+	display:flex;
+	gap:1vw;
+	flex-direction:column;
+    background:#8e9fab;
+	width:250px;
+	height:60vh;
+}
+.settingnav:hover{
+	background:#b05800;
+}
+.setting{
+	padding-left:2vw;
+}

@@ -1,0 +1,62 @@
+.tbox>p{
+	width:100px;
+}
+.tbox{
+	display:flex;
+	align-items:center;
+	
+}
+.selectbox{
+	color:black;
+}
+.addwrap{
+	display:flex;
+	flex-wrap:wrap;
+	gap:3vw;
+}
+.addleft,.addright{
+	display:flex;
+	flex-direction:column;
+	gap:2vw;
+}
+.addleft{
+	flex:1;
+}
+.addright{
+	flex:2;
+}
+.tboxbutton{
+	margin-top:50px;
+	margin-left:100px;
+	
+}
+.tboxbutton>button{
+	width:170px;
+}
+.tphoto{
+	margin-left:100px;
+	width:100%;
+}
+
+.selectbox{
+	width:210px;
+	height:40px;
+	border-radius:1vw;
+}
+
+.textinput{
+	width:200px;
+	height:40px;
+	border-radius:1vw;
+}
+.addnewclothes{
+	background-image:url('/men8.jpg');
+	background-size:cover;
+	width:100%;
+	height:100%;
+		color:white;
+}
+.addnewclothes .addwrap{
+
+	font-weight:bold;
+}

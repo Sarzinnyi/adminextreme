@@ -1,0 +1,21 @@
+.topup tbody img{
+	width:50px;
+	height:40px;
+	object-fit:cover;
+}
+.topup {
+	font-size:0.8rem;
+}
+@media (max-width: 768px){
+	.topup tbody img{
+		width:20px;
+		height:20px;
+		object-fit:cover;
+	}
+	.topup{
+		font-size:0.5rem;
+	}
+	.topup tbody{
+		font-size:0.5rem;
+	}
+}

@@ -1,0 +1,30 @@
+.addinstockclotheswrap{
+	display:flex;
+	min-width:100%;
+}
+.dataitem{
+	display:flex;
+	
+}
+.leftitem{
+	width:100px;
+}
+.addinstockphoto>img{
+	width:300px;
+	height:200px;
+}
+.checkboxeswrap{
+	display:flex;
+}
+@media (max-width: 768px){
+	.addinstockphoto>img{
+		width:40vw;
+		height:20vh;
+	}
+	.addinstockclothes{
+		overflow-y:auto;
+	}
+	.data{
+		min-width:40vw;
+	}
+}

@@ -1,0 +1,17 @@
+tr {
+  position:relative;
+}
+
+tr:hover td{
+	background:gray;
+}
+table{
+	margin-top:3vh;
+	background:#e9e7f1;
+	
+	border-radius:1vw;
+	border-collapse:collapse;
+	width:100%;
+	text-align:center;
+}
+}

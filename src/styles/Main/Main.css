@@ -1,0 +1,128 @@
+.main{
+	display:flex;
+	color:#111827;
+		height:100vh;
+		overflow:hidden;
+}
+.main>header{
+	flex:1;
+	background:#2563EB;
+	height:100vh;
+}
+.main>.mainoutlet{
+	flex:5;
+	background:#f8f8f8;
+	overflow:auto;
+}
+.main>header>nav{
+	display:flex;
+	flex-direction:column;
+	gap:1vw;
+}
+.mainlink{
+	text-decoration:none;
+	color:white;
+	border-radius:1vw;
+	cursor:pointer;
+    font-weight:bold;
+}
+.mainlink:hover{
+	background:#6B7280;
+}
+.mainlink.active{
+	background:white;
+	color:black;
+}
+.show{
+	padding-left:20px;
+}
+.dropdown{
+	background:#6f6fa6;
+	cursor:pointer;
+	display:none;
+	border-radius:1vw;
+	
+}
+.dropdownmain:hover .dropdown{
+	display:block;
+}
+.dropdownitem:hover{
+	background:gray;
+	padding-left:20px;
+	border-radius:1vw;
+}
+.main>header>h4{
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #ff6b6b);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s linear infinite;
+}
+
+@keyframes gradientMove {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 300%;
+  }
+
+}
+
+@media (max-width:768px){
+	.main>header{
+		font-size:0.6rem;
+		min-height:150px;
+	}
+	.main{
+		flex-direction:column;
+	}
+	.main>header>nav{
+		flex-direction:row;
+		flex-wrap:wrap;
+	     gap:5vw;
+	}
+	.dropdownmain {
+  position: relative;  
+  display:flex;
+  flex-direction:column;
+  align-items: flex-start;
+  margin-left:auto;
+
+}
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: -2vw;
+background:linear-gradient(to right,#8da6f5,#f55659);
+border-radius:1vw;
+  min-width: 100px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  z-index: 9999;
+  display: none;
+}
+
+.dropdownmain:hover .dropdown {
+  display: block;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  border-radius:1vw;
+  gap: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: linear-gradient(to left,#eed9ff,#b5b9ff,#ffc1bb,#78c5ff);
+  
+}
+.show{
+	padding-left:0;
+}
+
+}

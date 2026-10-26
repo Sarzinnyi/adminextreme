@@ -1,0 +1,21 @@
+.instocknav{
+	display:flex;
+	padding:1vw;
+	flex-direction:column;
+	width:20vw;
+	margin-left:2vw;
+	gap:1vw;
+	color:white;
+	font-weight:bold;
+}
+.navitem{
+	background:blue;
+	width:17vw;
+	border-radius:1vw;
+	cursor:pointer;
+	padding:1vw;
+}
+.navitem:hover{
+	background:red;
+	transform:scale(1.2);
+}

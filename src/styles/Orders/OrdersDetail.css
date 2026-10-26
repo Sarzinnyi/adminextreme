@@ -1,0 +1,54 @@
+.detailbox{
+	display:flex;
+}
+.textbx{
+	flex:1;
+	display:flex;
+	flex-direction:column;
+
+}
+.detailtt{
+	display:flex;
+	margin-bottom:0.3vw;
+}
+.left{
+	width:30%;
+	font-weight:bold;
+}
+.right{
+	font-style:italic;
+}
+.imagebox{
+	width:30%;
+}
+.imagebox>img{
+	width:80%;
+	height:50%;
+}
+.ordersdetail{
+	position:relative;
+	min-height:100vh;
+}
+.black{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:black;
+	z-index:1;
+	opacity:0.6;
+}
+.imagezoom{
+	position:absolute;
+	top:25%;
+	left:25%;
+	width:50%;
+	height:50%;
+	background:white;
+	z-index:3;
+}
+.imagezoom>img{
+	width:100%;
+	height:100%;
+}
